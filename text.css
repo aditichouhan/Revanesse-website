@@ -1,0 +1,134 @@
+/* effect: 'fadeOutRight' */
+
+.look-text{
+    color: white;
+    font-size: 10vmax;
+    font-weight: 100;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    animation: fadeOutRight 3s infinite;
+}
+@keyframes fadeOutRight {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.your-text{
+    color: white;
+    font-family: 'Courgette';
+    font-size: 8vmax;
+    font-weight: 100;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    animation: fadeOutRight 3s infinite;
+}
+/* ----------[page1-text--end---- */
+.page2-text{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 14%;
+    font-size: 6vmax;
+    font-weight: 100;
+    animation: fadeInUp 3s infinite;
+}
+.page2-text1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 14%;
+    font-size: 6vmax;
+    animation: fadeInUp 3s infinite;
+}
+.page2-text2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 17%;
+    font-size: 6vmax;
+    font-family: 'Courgette';
+    font-weight: 100;
+    animation: fadeInUp 3s infinite;
+}
+.page2-text3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 6vmax;
+    font-weight: 100;
+    animation: fadeInUp 3s infinite;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/* --------------------------------- */
+.page3-text{
+    color: white;
+    font-size: 18vmax;
+    font-weight: 100;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    animation: fadeInUp 3s infinite;
+}
+
+.span-of-look{
+    color: white;
+    font-size: 17vmax;
+     font-weight: 100;
+    font-family: 'Courgette';
+    position: relative;
+     top: 17%;
+    left: 40%;
+    animation: fadeInUp 3s infinite;
+} 
+
+
+
+
+
+
+/* ---------------------- */
+.peragraf-h5{
+    font-family: 'Courgette';
+    position: relative;
+    font-size: 1.4vmax;
+    top: 10%;
+    left: 20%;
+    color: white;
+    font-weight: 100;
+}

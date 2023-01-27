@@ -1,0 +1,250 @@
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.page1 {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background-image: url(newone);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+nav {
+    height: 20%;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-img {
+    height: 25px;
+    width: 500px;
+    /* padding-left: 20px;
+    padding-top: 5px; */
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.6vmax;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.find-btn {
+    padding: 20px 60px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5vmax;
+}
+
+/* --------------page1--end ------------------- */
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: #0f0802;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+/* ------------------------------------ */
+
+.page3 {
+    height: 100%;
+    width: 100%;
+    background-color: #0c0c0c;
+    overflow: hidden;
+    /* overflow-x: hidden; */
+}
+
+/* ------------------------------- */
+.page4 {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    margin: 0;
+    background: linear-gradient(135deg, #141414, #06040ddf);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.group {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.click-me-text{
+    z-index: 99;
+    color: white;
+    font-size: 2vmax;
+    position: relative;
+    top: 40%;
+    font-family: 'Courgette';
+    /* background-color: #131021; */
+}
+.click-me-text:hover{
+    cursor: pointer;
+    color: transparent;
+    
+}
+
+.item {
+    width: 15vw;
+    /* width: 20vw; */
+    height: 75vh;
+    background-position: center;
+    background-size: 75vh;
+    margin: 1vw;
+    border-radius: 1vw;
+    display: inline-block;
+    cursor: pointer;
+}
+/* --------------------------------- */
+.page5{
+    height: 70%;
+    width: 100%;
+    background-color: #0c0c0c;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+    
+}
+
+.div1{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(8, 36, 175); */
+}
+.div1-log-img{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    height: 5%;
+    width: 50%;
+}
+
+.icon-div{
+    /* background-color: red; */
+    width: 35%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+i{
+    font-size: 2vmax;
+    color: white;
+}
+.div2{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(18, 185, 85); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    align-content: center;
+    justify-items: center;
+}
+.item-h5{
+  line-height: 3vmax;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 10%;
+  color: white;
+  font-weight: 100;
+  left: 5%;
+  font-size: 1.4vmax;
+  text-transform: capitalize;
+
+}
+.div3{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(137, 151, 151); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    align-content: center;
+    justify-items: center;
+}
+.item2-h5{
+    line-height: 3vmax;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10%;
+    color: white;
+    font-weight: 100;
+    left: 5%;
+    font-size: 1.4vmax;
+    text-transform: capitalize;
+  
+  }
+.div4{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(43, 147, 147); */
+}
+.find-btn2{
+    padding: 6px 60px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(246, 244, 244);
+    color: white;
+    font-size: 1.1vmax;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20%;
+    left: 20%;
+    text-transform: capitalize;
+}
